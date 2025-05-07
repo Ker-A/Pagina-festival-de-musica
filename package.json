@@ -1,0 +1,25 @@
+{
+  "name": "festival-de-musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y npm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Alan Bazan",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.87.0"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.1"
+  }
+}
